@@ -1,0 +1,27 @@
+# File sorgente e backup Blender
+*.blend
+*.blend1
+*.blend2
+
+# Segreti e configurazioni locali
+.env
+.env.*
+*.local
+secrets*
+*.key
+*.pem
+
+# Materiali aziendali riservati
+riservati/
+sprech-riservati/
+
+# File generati
+node_modules/
+__pycache__/
+dist/
+build/
+*.log
+
+# File di sistema
+.DS_Store
+Thumbs.db
